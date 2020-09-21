@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/******   Header   ******/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #fceed1;
+  color: white;
+}
+.Header{
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #fd746c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:50px;
+ 
+}
+/* element that wraps sidebar and main */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/****** Multiple Cards display ******/
+
+.main {
+  flex: 80%;
+  padding: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap:10px;
+  grid-column-gap:10px;
+}
+
+/****** One Card display ******/
+
+.card{
+  margin-top:30px;
+  border:1px solid rgb(160,160,255);;
+  border-radius:9px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-img{
+  width:100%;
+  height:100%;
+  border-top-left-radius:9px;
+  border-top-right-radius:9px;
+}
+.details{
+  padding:25px;
+
+}
+
+.card-date{
+  float:right;
+}
+.card-author{
+  display:inline-block;
+}
+.card-title{
+  font-size:23px;
+  padding:15px 0 15px 0;
+}
+.card-price{
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+/****** filter ******/
+.sidebar {
+  flex: 20%;
+  padding: 20px;
+}
+.filter-buttons {
+  padding-top: 10px;
+}
+.filter-buttons:hover {
+  cursor: pointer;
+}
+.filter-buttons p{
+  display:inline-block;
+}
+.filter-buttons p:after{
+  content: '';
+  width: 0; 
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: black;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+
+}
+.filter-buttons p:hover:after{
+  width:100%;
+  left: 0;
+  background: #2c3e50;
+
+}
+.icons{
+  color:#3E4353;;
+  margin-right:10px;
+}
+
+/***** buttons *****/
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#6A4E58;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+  text-shadow:0px -1px 0px #2b665e;
+  margin-top:30px;
+   
+}
+.myButton:hover {
+	background-color:#995A5F;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.Create{
+  float: right;
+  
+  text-align:center;
+}
+
+
+
+
+
+/**** responsive *****/
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+  .cards {
+    grid-template-columns: none;
+  }
+  .sidebar{
+    padding-left:25%;
+    padding-right:25%;
+  }
+  .sidebar p{
+    text-align: center;
+  }
+  .filter-buttons{
+    padding-left:25%;
+    padding-right:25%;
+  }
+  .buttons{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .filter-buttons p{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+  }
+  .myButton{
+    width:100%;
+  }
+}
+
+
+
+
+
+/***** EDIT CARD *****/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.editform{
+  width:40%;
+  margin:auto;
+  padding-top:30px;
+}

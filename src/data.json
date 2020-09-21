@@ -1,0 +1,201 @@
+[
+    {
+        "id":1,
+        "title":"Interaction Backend Workshop",
+        "price":"200 kn",
+        "date":"14/12/2017",
+        "author":"Ivo Ivić",
+        "category":"Backend"
+    },
+    {
+        "id":2,
+        "title":"Interaction Frontend Workshop ",
+        "price":"300 kn",
+        "date":"09/01/2018",
+        "author":"Ante Antić",
+        "category":"Frontend"
+    },
+    {
+        "id":3,
+        "title":"Interaction Design Workshop ",
+        "price":"400 kn",
+        "date":"12/03/2018",
+        "author":"Josip Jurić",
+        "category":"Design"
+    },
+    {
+        "id":4,
+        "title":"Interaction Backend Workshop ",
+        "price":"500 kn",
+        "date":"17/05/2018",
+        "author":"John Smith",
+        "category":"Backend"
+    },
+    {
+        "id":5,
+        "title":"Interaction Marketing Workshop ",
+        "price":"600 kn",
+        "date":"15/06/2018",
+        "author":"Tomislav Ivanovic",
+        "category":"Marketing"
+    },
+    {
+        "id":6,
+        "title":"Interaction Design Workshop ",
+        "price":"700 kn",
+        "date":"20/06/2018",
+        "author":"Luka Lukšić",
+        "category":"Design"
+    },
+    {
+        "id":7,
+        "title":"Interaction Frontend Workshop ",
+        "price":"300 kn",
+        "date":"03/09/2018",
+        "author":"Lucie Holmes",
+        "category":"Frontend"
+    },
+    {
+        "id":8,
+        "title":"Interaction Backend Workshop ",
+        "price":"400 kn",
+        "date":"16/10/2018",
+        "author":"Jia Hayden",
+        "category":"Backend"
+    },
+    {
+        "id":9,
+        "title":"Interaction Marketing Workshop ",
+        "price":"100 kn",
+        "date":"22/10/2018",
+        "author":"Reiss Howe",
+        "category":"Marketing"
+    },
+    {
+        "id":10,
+        "title":"Interaction Design Workshop ",
+        "price":"700 kn",
+        "date":"21/12/2018",
+        "author":"Laiba Whittle",
+        "category":"Design"
+    },
+    {
+        "id":11,
+        "title":"Interaction Frontend Workshop ",
+        "price":"700 kn",
+        "date":"18/02/2019",
+        "author":"Jevon Steele",
+        "category":"Frontend"
+    },
+    {
+        "id":12,
+        "title":"Interaction Backend Workshop ",
+        "price":"700 kn",
+        "date":"15/03/2019",
+        "author":"Bilal Mcgee",
+        "category":"Backend"
+    },
+    {
+        "id":13,
+        "title":"Interaction Marketing Workshop ",
+        "price":"700 kn",
+        "date":"29/07/2019",
+        "author":"Karter Ali",
+        "category":"Marketing"
+    },
+    {
+        "id":14,
+        "title":"Interaction DesignDesign Workshop ",
+        "price":"700 kn",
+        "date":"10/09/2019",
+        "author":"Ezmae Bull",
+        "category":"Design"
+    },
+    {
+        "id":15,
+        "title":"Interaction Frontend Workshop ",
+        "price":"700 kn",
+        "date":"09/01/2020",
+        "author":"George Hall",
+        "category":"Frontend"
+    },
+    {
+        "id":16,
+        "title":"Interaction Backend Workshop ",
+        "price":"700 kn",
+        "date":"17/01/2020",
+        "author":"Jemima Salgado",
+        "category":"Backend"
+    },
+    {
+        "id":17,
+        "title":"Interaction Marketing Workshop ",
+        "price":"700 kn",
+        "date":"20/02/2020",
+        "author":"Wallace Hart",
+        "category":"Marketing"
+    },
+    {
+        "id":18,
+        "title":"Interaction Design Workshop ",
+        "price":"700 kn",
+        "date":"02/03/2020",
+        "author":"Ava-Mai Paterson",
+        "category":"Design"
+    },
+    {
+        "id":19,
+        "title":"Interaction Frontend Workshop ",
+        "price":"700 kn",
+        "date":"16/03/2020",
+        "author":"Izabela Nunez",
+        "category":"Frontend"
+    },
+    {
+        "id":20,
+        "title":"Interaction Backend Workshop ",
+        "price":"700 kn",
+        "date":"27/03/2020",
+        "author":"Hashir Hulme",
+        "category":"Backend"
+    },
+    {
+        "id":21,
+        "title":"Interaction Marketing Workshop ",
+        "price":"700 kn",
+        "date":"27/04/2020",
+        "author":"Alicja Daly",
+        "category":"Marketing"
+    },
+    {
+        "id":22,
+        "title":"Interaction Design Workshop ",
+        "price":"700 kn",
+        "date":"05/06/2020",
+        "author":"Lucinda Berger",
+        "category":"Design"
+    },{
+        "id":23,
+        "title":"Interaction Frontend Workshop ",
+        "price":"700 kn",
+        "date":"05/10/2020",
+        "author":"Ruairi Mcnamara",
+        "category":"Frontend"
+    }
+    ,{
+        "id":24,
+        "title":"Interaction Backend Workshop ",
+        "price":"700 kn",
+        "date":"06/11/2020",
+        "author":"Jordana Jordan",
+        "category":"Backend"
+    },
+    {
+        "id":25,
+        "title":"Interaction Marketing Workshop ",
+        "price":"700 kn",
+        "date":"12/11/2020",
+        "author":"Amanah Hamilton",
+        "category":"Marketing"
+    }
+]
